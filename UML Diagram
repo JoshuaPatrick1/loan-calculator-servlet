@@ -1,0 +1,11 @@
++-------------------+        +-------------------+
+|   LoanServlet     |        |       Loan        |
++-------------------+        +-------------------+
+| - doPost()        |        | - rate: double    |
+|                   |        | - years: int      |
+|                   |        | - amount: double  |
++-------------------+        +-------------------+
+| + process form    |        | + getMonthlyPayment(): double |
+| + create Loan obj |        | + getTotalPayment(): double   |
+| + display results |        |                               |
++-------------------+        +-------------------+
